@@ -161,7 +161,7 @@ h5 {
 }
 
 .container {
-	width: 700px;
+	width: 900px;
 	margin: 0 auto;
 }
 
@@ -184,22 +184,25 @@ h5 {
 .container .header nav {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	align-items: center;
+	justify-content: flex-start;
 }
 
-.container .header nav a {
+.container .header header nav a {
+	margin-left: 20px;
 	padding: 18px;
 	color: rgb(141, 141, 141);
 	text-decoration: none;
 }
 
 .container .header nav img {
-	margin-left: 95px;
+	margin-left: 166px;
 }
 
-.container .header header nav p {
-	line-height: 19px;
+
+.container .header header p {
+	line-height: 25px;
+	padding-bottom: 20px;
 }
 
 /*
@@ -208,8 +211,8 @@ h5 {
 }
 */
 
-.container .header-image {
-	width: 100%;
+.container .header header .header-image img {
+	width: 1000px;
 	padding-bottom: 10px;
 }
 
@@ -218,8 +221,8 @@ section {
 	width: 1000px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	border-top: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 }
 
 section .boxes {
@@ -354,34 +357,33 @@ section .boxes .android button {
 	border: 1px solid black;
 }
 
-/* footer */
-
-.footer {
+/* section2 */
+.section2 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 15px;
 }
 
-footer .footer {
-	border: 1px solid red;
+.container .section2 .last {
+	padding: 20px;
 	width: 460px;
-	padding: 50px 0 0 0;
+}
+
+.container .section2 .last p {
 	line-height: 19px;
-	margin-bottom: 10px;
 }
 
-footer .footer p {
-	padding-bottom: 10px;
-	justify-content: center;
+.container .section2 .last ul li {
+	padding: 10px;
 }
 
-footer .footer ul li {
-	padding: 5px;
+.container .section2 .last img {
+	padding-top: 20px;
 }
 
-footer .footer .footer-image img {
-	justify-content: flex-end;
-}
-
-footer .footer-image {
-	justify-content: space-between;
+/* footer */
+.container footer {
+	padding: 40px;
+	text-align: center;
 }
