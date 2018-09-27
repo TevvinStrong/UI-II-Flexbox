@@ -358,28 +358,29 @@ section .boxes .android button {
 }
 
 /* section2 */
-.section2 {
+.container section .last {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding-top: 15px;
 }
 
-.container .section2 .last {
+.container section .last .foot {
 	padding: 20px;
 	width: 460px;
 }
 
-.container .section2 .last p {
+.container section .last .foot p {
 	line-height: 19px;
 }
 
-.container .section2 .last ul li {
+.container section .last .foot ul li {
 	padding: 10px;
 }
 
-.container .section2 .last img {
+.container section .last img {
 	padding-top: 20px;
+	margin-left: 120px;
 }
 
 /* footer */
