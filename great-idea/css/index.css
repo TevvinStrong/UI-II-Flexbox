@@ -104,7 +104,7 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+	display: flex;
 }
 
 body {
@@ -156,6 +156,8 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
 * {
 	box-sizing: border-box;
 }
@@ -164,6 +166,78 @@ h5 {
 	width: 900px;
 	margin: 0 auto;
 }
+
+/*** HOME PAGE ***/
+
+/* Nav Section */
+.container .header .flex .get-started {
+	color: rgb(173, 173, 173);
+}
+
+/* Header section */
+.container .header .get-started {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.innovation h1 {
+	font-size: 90px;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.innovation button {
+	margin-left: 85px;
+	padding: 10px 60px 10px 60px;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+
+/* Code snippet photo */
+.photo img {
+	margin-right: 30px;
+	margin-bottom: 80px;
+}
+
+/* section1 */
+.container .section1 .features {
+	margin-right: 25px;
+}
+
+/* Middle-photo */
+.container .middle-photo img {
+	width: 990px;
+}
+
+/* Section2 */
+.container .section2 {
+	border-bottom: 1px solid black;
+}
+
+.container .section2 .services {
+	margin-right: 25px;
+}
+
+.container .section2 .product {
+	margin-right: 25px;
+}
+
+/* Contact section */
+.container .contact {
+	margin-top: 50px;
+}
+
+/* Footer */
+.container footer p {
+	margin-left: 400px;
+	padding: 30px;
+}
+
+/*** SERVICES PAGE ***/
 
 .container .header {
 	/* width: 100%; */
